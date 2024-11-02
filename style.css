@@ -63,10 +63,12 @@ img {
 }
 
 #form_holder {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(237, 237, 237);
     width: 60%;
     height: 100%;
+    position: relative;
 }
 
 input {
@@ -105,4 +107,14 @@ legend {
     font-size: 1.2em;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+#form_explanation {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+    position: absolute;
+    font: 1em;
+    font-weight: bold;
+    line-height: 1.5em;
 }
