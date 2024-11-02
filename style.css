@@ -20,6 +20,14 @@ img {
     width: 100%;
 }
 
+#logo {
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .content_holder {
     width: 70vw;
     height: 100vh;
@@ -35,8 +43,13 @@ img {
     top: 30%;
 }
 
+#title_content {
+    width: 86%;
+    margin: 0% calc((100% - 86%) / 2);
+}
+
 #title {
-    text-align: center;
+    text-align: right;
     color: white;
     font-size: 3em;
 }
