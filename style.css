@@ -89,6 +89,10 @@ input {
     border-radius: 5px;
 }
 
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
 form {
     height: 35vh;
     margin: calc((100vh - 35vh)/2) 0;
