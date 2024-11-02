@@ -141,6 +141,11 @@ legend {
     border: 0.5px black solid;
 }
 
+#form_holder>button:hover {
+    background-color: #fab338bb;
+    cursor: pointer;
+}
+
 #login {
     position: absolute;
     margin-top: 580px;
