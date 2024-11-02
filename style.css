@@ -2,6 +2,11 @@
     font-family: Inter;
     src: url(./fonts/Inter-Regular.woff2);
 }
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-SemiBold.woff2);
+    font-weight: bold;
+}
 
 * {
     font-family: Inter, 'Arial Narrow Bold', sans-serif;
@@ -11,7 +16,7 @@
 .img_holder {
     position: relative;
     height: 100vh;
-    width: 35vw;
+    width: 43%;
     background-color: blue;
 }
 
@@ -21,11 +26,11 @@ img {
 }
 
 #logo {
-    height: 3em;
-    width: 3em;
+    height: 2em;
+    width: 2em;
     position: absolute;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 40px;
 }
 
 .content_holder {
@@ -33,6 +38,8 @@ img {
     height: 100vh;
     background-color: red;
     margin: 0vw calc((100vw - 70vw) / 2);
+    display: flex;
+    padding: 0;
 }
 
 #title_block {
@@ -49,7 +56,53 @@ img {
 }
 
 #title {
-    text-align: right;
+    text-align: center;
+    margin-left: 2em;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
+}
+
+#form_holder {
+    display: flexbox;
+    background-color: rgb(237, 237, 237);
+    width: 60%;
+    height: 100%;
+}
+
+input {
+    width: 200px;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 0;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+form {
+    height: 35vh;
+    margin: calc((100vh - 35vh)/2) 0;
+    background-color: white;
+}
+
+label {
+    display: block;
+    font-size: 0.8em;
+}
+
+fieldset {
+    display: flex;
+    border: 0;
+}
+
+fieldset>div {
+    margin-left: 30px;
+}
+
+legend {
+    margin-left: 30px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
